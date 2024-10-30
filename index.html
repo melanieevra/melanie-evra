@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Mélanie Evra</title>
-  <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:wght@400&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=EB+Garamond&display=swap" rel="stylesheet">
   <style>
     body, html {
       height: 100%;
@@ -15,15 +15,25 @@
       font-family: 'EB Garamond', serif;
       background-color: white;
     }
-    a {
-      text-decoration: none;
-      color: black;
+    .name-container {
       font-size: 3em;
-      font-weight: 400; /* Regular 400 */
+      font-weight: 400;
+      color: black;
+      text-decoration: none;
+      text-align: center;
+    }
+    .name-container .subtitle {
+      font-size: 0.5em; /* Taille plus petite pour "Architecte" */
+      font-weight: 300;
+      display: block;
+      margin-top: 5px; /* Espace entre le nom et le sous-titre */
     }
   </style>
 </head>
 <body>
-  <a href="portfolio+cv.pdf" target="_blank">Mélanie Evra</a>
+  <a href="cv.html" class="name-container">
+    Mélanie Evra
+    <span class="subtitle">Architecte</span>
+  </a>
 </body>
 </html>
